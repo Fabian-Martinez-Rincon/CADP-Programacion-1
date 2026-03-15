@@ -5,12 +5,12 @@ program DivisionEntera;
 var
     num1, num2, cociente, resto: Integer;
 begin
-    Write('Ingrese el primer número entero: ');
+    Write('Ingrese el primer numero entero: ');
     ReadLn(num1);
-    Write('Ingrese el segundo número entero: ');
+    Write('Ingrese el segundo numero entero: ');
     ReadLn(num2);
 
-    cociente := num1 div num2;
+    cociente := num1 div num2; 
     resto := num1 mod num2;
 
     WriteLn('El resultado de la división entera es: ', cociente);

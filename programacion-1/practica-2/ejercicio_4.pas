@@ -8,7 +8,8 @@ Luego, debe calcular e informar el precio final de cobro de la entrada:
 
 program Teatro;
 var
-    precioEntrada, precioFinal: Real;
+    precioEntrada: Real;
+    precioFinal: Real;
     edad: Integer;
     tipoFuncion: Char;
 begin
