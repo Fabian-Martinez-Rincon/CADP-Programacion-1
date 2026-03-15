@@ -1,6 +1,10 @@
+<div align='center'>
+
 # Algoritmos y Programación 1 - Prácticas
 
 <img src='https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExcTFmdHJ1NnhkM2tpbGptNTR4NDFuemJnMzc1MGgybnFnbmdqM2oxeCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/H5mx6uIAAiaru/giphy.gif'>
+
+</div>
 
 ## Índice
 
