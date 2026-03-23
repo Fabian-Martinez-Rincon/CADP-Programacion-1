@@ -28,7 +28,7 @@
 - [Ejercicio 3](/Algoritmos%20y%20Programacion%201/practica-2/ejercicio_3.pas)
 - [Ejercicio 4](/Algoritmos%20y%20Programacion%201/practica-2/ejercicio_4.pas)
 
-## Práctica 3
+### Práctica 3
 
 - [Ejercicio 1](/Algoritmos%20y%20Programacion%201/practica-3/ejercicio1.o)
 - [Ejercicio 1b](/Algoritmos%20y%20Programacion%201/practica-3/ejercicio1b.pas)
@@ -39,7 +39,7 @@
 - [Ejercicio 5](/Algoritmos%20y%20Programacion%201/practica-3/ejercicio5.pas)
 - [Ejercicio 6](/Algoritmos%20y%20Programacion%201/practica-3/ejercicio6.pas)
 
-## Practica 4
+### Practica 4
 
 - [Ejercicio 1a](/Algoritmos%20y%20Programacion%201/practica-4/ejercicio1_a.pas)
 - [Ejercicio 2](/Algoritmos%20y%20Programacion%201/practica-4/ejercicio_2.pas)
