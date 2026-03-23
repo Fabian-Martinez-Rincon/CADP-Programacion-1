@@ -21,6 +21,7 @@ var
   prom: real;
 
 begin
-  calcularPromedio(30, prom);
+  prom := 0;
+  calcularPromedio(3, prom);
   writeln('El promedio de alturas es: ', prom:0:2);
 end.

@@ -27,8 +27,6 @@ procedure contarImpares_2(var cantidad: integer);
 var
   num: integer;
 begin
-  cantidad := 0;
-
   writeln('Ingrese numeros (negativo para terminar): ');
   readln(num);
 
@@ -43,11 +41,10 @@ end;
 
 var
   resultado: integer;
-
+  cantidad: integer;
 begin
-    resultado := contarImpares_1;
-    writeln('Cantidad de numeros impares: ', resultado);
-    contarImpares_2(resultado);
-    writeln('Cantidad de numeros impares: ', resultado);
+  cantidad := 0;
+  contarImpares_2(cantidad);
+  writeln('Cantidad de numeros impares: ', cantidad);
 
 end.

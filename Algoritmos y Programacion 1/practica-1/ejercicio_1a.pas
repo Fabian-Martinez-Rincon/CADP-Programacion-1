@@ -7,8 +7,6 @@ var
 begin
     writeln('Ingrese el primer número:');
     readln(num1);
-    writeln('Ingrese el segundo número:');
-    readln(num2);
     promedio := (num1 + num2) / 2;
     writeln('El promedio es: ', promedio:0:2);
 end.

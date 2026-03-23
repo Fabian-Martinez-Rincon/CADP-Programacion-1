@@ -9,22 +9,33 @@
 ## Índice
 
 ### Práctica 1
-- [Ejercicio 1a PromedioDosNumeros](/programacion-1/practica-1/ejercicio_1a.pas)
-- [Ejercicio 1b Rectangulo](/programacion-1/practica-1/ejercicio_1b.pas)
-- [Ejercicio 1c](/programacion-1/practica-1/ejercicio_1c.pas)
-- [Ejercicio 1d](/programacion-1/practica-1/ejercicio_1d.pas)
-- [Ejercicio 2a DivisionEntera](/programacion-1/practica-1/ejercicio_2a.pas)
-- [Ejercicio 2b MinutosAHoras](/programacion-1/practica-1/ejercicio_2b.pas)
-- [Ejercicio 3 Circulo](/programacion-1/practica-1/ejercicio_3.pas)
-- [Ejercicio 4 TransaccionDolares](/programacion-1/practica-1/ejercicio_4.pas)
+- [Ejercicio 1a PromedioDosNumeros](/Algoritmos%20y%20Programacion%201/practica-1/ejercicio_1a.pas)
+- [Ejercicio 1b Rectangulo](/Algoritmos%20y%20Programacion%201/practica-1/ejercicio_1b.pas)
+- [Ejercicio 1c](/Algoritmos%20y%20Programacion%201/practica-1/ejercicio_1c.pas)
+- [Ejercicio 1d](/Algoritmos%20y%20Programacion%201/practica-1/ejercicio_1d.pas)
+- [Ejercicio 2a DivisionEntera](/Algoritmos%20y%20Programacion%201/practica-1/ejercicio_2a.pas)
+- [Ejercicio 2b MinutosAHoras](/Algoritmos%20y%20Programacion%201/practica-1/ejercicio_2b.pas)
+- [Ejercicio 3 Circulo](/Algoritmos%20y%20Programacion%201/practica-1/ejercicio_3.pas)
+- [Ejercicio 4 TransaccionDolares](/Algoritmos%20y%20Programacion%201/practica-1/ejercicio_4.pas)
 
 ### Práctica 2
-- [Ejercicio 1a](/programacion-1/practica-2/ejercicio_1a.pas)
-- [Ejercicio 1b](/programacion-1/practica-2/ejercicio_1b.pas)
-- [Ejercicio 1c](/programacion-1/practica-2/ejercicio_1c.pas)
-- [Ejercicio 1d](/programacion-1/practica-2/ejercicio_1d.pas)
-- [Ejercicio 1e](/programacion-1/practica-2/ejercicio_1e.pas)
-- [Ejercicio 2](/programacion-1/practica-2/ejercicio_2.pas)
-- [Ejercicio 3](/programacion-1/practica-2/ejercicio_3.pas)
-- [Ejercicio 4](/programacion-1/practica-2/ejercicio_4.pas)
+- [Ejercicio 1a](/Algoritmos%20y%20Programacion%201/practica-2/ejercicio_1a.pas)
+- [Ejercicio 1b](/Algoritmos%20y%20Programacion%201/practica-2/ejercicio_1b.pas)
+- [Ejercicio 1c](/Algoritmos%20y%20Programacion%201/practica-2/ejercicio_1c.pas)
+- [Ejercicio 1d](/Algoritmos%20y%20Programacion%201/practica-2/ejercicio_1d.pas)
+- [Ejercicio 1e](/Algoritmos%20y%20Programacion%201/practica-2/ejercicio_1e.pas)
+- [Ejercicio 2](/Algoritmos%20y%20Programacion%201/practica-2/ejercicio_2.pas)
+- [Ejercicio 3](/Algoritmos%20y%20Programacion%201/practica-2/ejercicio_3.pas)
+- [Ejercicio 4](/Algoritmos%20y%20Programacion%201/practica-2/ejercicio_4.pas)
+
+## Práctica 3
+
+- [Ejercicio 1](/Algoritmos%20y%20Programacion%201/practica-3/ejercicio1.o)
+- [Ejercicio 1b](/Algoritmos%20y%20Programacion%201/practica-3/ejercicio1b.pas)
+- [Ejercicio 2](/Algoritmos%20y%20Programacion%201/practica-3/ejercicio2.pas)
+- [Ejercicio 2b](/Algoritmos%20y%20Programacion%201/practica-3/ejercicio2b.pas)
+- [Ejercicio 3](/Algoritmos%20y%20Programacion%201/practica-3/ejercicio3.pas)
+- [Ejercicio 4](/Algoritmos%20y%20Programacion%201/practica-3/ejercicio4.pas)
+- [Ejercicio 5](/Algoritmos%20y%20Programacion%201/practica-3/ejercicio5.pas)
+- [Ejercicio 6](/Algoritmos%20y%20Programacion%201/practica-3/ejercicio6.pas)
 

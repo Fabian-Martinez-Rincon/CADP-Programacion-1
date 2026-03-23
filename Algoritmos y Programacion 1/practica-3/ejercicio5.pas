@@ -4,11 +4,13 @@ program ejercicio5;
 var
   i, numero, cantPares, cantImpares: integer;
   porcPares, porcImpares: real;
+  cantidadNumeros: integer;
 begin
+  cantidadNumeros := 5; // Cambiar a 50 para el caso real
   cantPares := 0;
   cantImpares := 0;
 
-  for i := 1 to 50 do
+  for i := 1 to cantidadNumeros do
   begin
     readln(numero);
 
@@ -18,8 +20,8 @@ begin
       cantImpares := cantImpares + 1;
   end;
 
-  porcPares := (cantPares * 100) / 50;
-  porcImpares := (cantImpares * 100) / 50;
+  porcPares := (cantPares * 100) / cantidadNumeros;
+  porcImpares := (cantImpares * 100) / cantidadNumeros;
 
   writeln('Porcentaje de numeros pares: ', porcPares:0:2, '%');
   writeln('Porcentaje de numeros impares: ', porcImpares:0:2, '%');
