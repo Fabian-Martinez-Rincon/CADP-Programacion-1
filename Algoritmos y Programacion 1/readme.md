@@ -39,3 +39,11 @@
 - [Ejercicio 5](/Algoritmos%20y%20Programacion%201/practica-3/ejercicio5.pas)
 - [Ejercicio 6](/Algoritmos%20y%20Programacion%201/practica-3/ejercicio6.pas)
 
+## Practica 4
+
+- [Ejercicio 1a](/Algoritmos%20y%20Programacion%201/practica-4/ejercicio1_a.pas)
+- [Ejercicio 2](/Algoritmos%20y%20Programacion%201/practica-4/ejercicio_2.pas)
+- [Ejercicio 3](/Algoritmos%20y%20Programacion%201/practica-4/ejercicio_3.pas)
+- [Ejercicio 4](/Algoritmos%20y%20Programacion%201/practica-4/ejercicio_4.pas)
+- [Ejercicio 5](/Algoritmos%20y%20Programacion%201/practica-4/ejercicio_5.pas)
+
