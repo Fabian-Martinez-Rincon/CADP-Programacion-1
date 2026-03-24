@@ -6,12 +6,12 @@ var
   cant: integer;
 begin
   cant := 0;
-
+  WriteLn('Ingrese numeros reales (ingrese 0 para finalizar):');
   readln(numero);
   while (numero <> 0) do
   begin
     cant := cant + 1;
-    readln(numero);
+    WriteLn('Ingrese numeros reales (ingrese 0 para finalizar):');
   end;
 
   writeln('La cantidad de numeros leidos es: ', cant);

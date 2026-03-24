@@ -3,8 +3,10 @@ informar el resultado de la multiplicación entre la constante y el número }
 program Ejercicio1C;
 const
     VALOR = 15;
+
 var
     numero, resultado: Integer;
+
 begin
     Write('Ingrese un numero: ');
     ReadLn(numero);

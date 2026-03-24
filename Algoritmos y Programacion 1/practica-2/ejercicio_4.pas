@@ -9,7 +9,6 @@ Luego, debe calcular e informar el precio final de cobro de la entrada:
 program Teatro;
 var
     precioEntrada: Real;
-    precioFinal: Real;
     edad: Integer;
     tipoFuncion: Char;
 begin
@@ -20,15 +19,13 @@ begin
     Write('Ingrese el tipo de funcion (N/E): ');
     ReadLn(tipoFuncion);
 
-    precioFinal := precioEntrada;
-
     if edad < 12 then
-        precioFinal := precioFinal * 0.5
+        precioEntrada := precioEntrada * 0.5
     else if edad > 65 then
-        precioFinal := precioFinal * 0.7;
+        precioEntrada := precioEntrada * 0.7;
 
-    if UpCase(tipoFuncion) = 'E' then
-        precioFinal := precioFinal * 1.2;
+    if tipoFuncion = 'E' then
+        precioEntrada := precioEntrada * 1.2;
 
-    WriteLn('El precio final de la entrada es: ', precioFinal:0:2);
+    WriteLn('El precio final de la entrada es: ', precioEntrada:0:2);
 end.

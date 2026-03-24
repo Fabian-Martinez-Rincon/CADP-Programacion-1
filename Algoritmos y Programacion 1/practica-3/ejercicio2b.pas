@@ -4,10 +4,8 @@ program ejercicio2b;
 var
   numero: real;
   cant: integer;
-  llegoACero: boolean;
 begin
   cant := 0;
-  llegoACero := false;
 
   readln(numero);
 
@@ -20,10 +18,7 @@ begin
   end;
 
   if (numero = 0) then
-    llegoACero := true;
-
-  writeln('La cantidad de numeros leidos es: ', cant);
-
-  if not llegoACero then
+    writeln('La cantidad de numeros leidos es: ', cant)
+  else
     writeln('No se ha ingresado el 0');
 end.

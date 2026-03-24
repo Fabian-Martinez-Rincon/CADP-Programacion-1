@@ -1,10 +1,11 @@
 program Ejercicio_4; 
 
-procedure suma(num1: integer; var num2:integer); 
+procedure suma(num1: integer; num2:integer); 
 begin 
     num2 := num1 + num2; 
     WriteLn('num1: ', num1, ' num2: ', num2);
     num1 := 0; 
+    num1 := 1110; 
 end; 
 var 
   i, x: integer; 

@@ -3,9 +3,10 @@ en caso contrario. }
 
 var
     c: char;
-    esNumerico: boolean;
 begin
     readln(c);
-    esNumerico := (c >= '0') and (c <= '9');
-    writeln(esNumerico);
+    if (c >= '0') and (c <= '9') then
+        writeln('El carácter es numérico.');
+    else
+        writeln('El carácter no es numérico.');
 end.

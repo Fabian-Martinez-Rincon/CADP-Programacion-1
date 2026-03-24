@@ -15,6 +15,6 @@ begin
     area := base * altura;
     perimetro := 2 * base + 2 * altura;
 
-    WriteLn('El área del rectángulo es: ', area:0:2);
-    WriteLn('El perímetro del rectángulo es: ', perimetro:0:2);
+    WriteLn('El area del rectangulo es: ', area);
+    WriteLn('El perimetro del rectangulo es: ', perimetro);
 end.
