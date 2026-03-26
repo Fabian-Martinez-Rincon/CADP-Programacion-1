@@ -3,10 +3,14 @@ en caso contrario. }
 
 var
     c: char;
+    esNumero: boolean;
 begin
+    Write('Ingrese un caracter: ');
     readln(c);
-    if (c >= '0') and (c <= '9') then
-        writeln('El carácter es numérico.');
+    esNumero := (c >= '0') and (c <= '9');
+
+    if esNumero then
+        writeln('El caracter es numerico.')
     else
-        writeln('El carácter no es numérico.');
+        writeln('El caracter no es numerico.');
 end.

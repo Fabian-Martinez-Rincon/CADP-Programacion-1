@@ -10,13 +10,7 @@ begin
   readln(numero_2);
 
   if numero_1 > numero_2 then
-  begin
-    WriteLn('El numero mayor es ', numero_1);
     WriteLn('El numero mayor es ', numero_1)
-  end
   else
-    begin
-
-      WriteLn('El numero mayor es ', numero_2)  
-    end;
+    WriteLn('El numero mayor es ', numero_2)  
 end.

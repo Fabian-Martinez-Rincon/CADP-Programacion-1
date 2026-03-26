@@ -7,6 +7,7 @@ var
 begin
     Write('Ingrese un número: ');
     ReadLn(numero);
+    
     if (numero mod 2 = 0) and (numero > 10) then
         WriteLn('El número ', numero, ' es par y mayor que 10.');
 end.
