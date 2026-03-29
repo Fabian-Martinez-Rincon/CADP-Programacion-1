@@ -1,6 +1,6 @@
 {Leer un carácter y almacenar en una variable booleana el valor true,  si es un carácter numérico, y el valor false 
 en caso contrario. }
-
+program ejercicio_2;
 var
     c: char;
     esNumero: boolean;

@@ -11,6 +11,8 @@ begin
 
   if numero_1 > numero_2 then
     WriteLn('El numero mayor es ', numero_1)
+  else if (numero_1 = numero_2) then
+    WriteLn('Los numeros son iguales')
   else
     WriteLn('El numero mayor es ', numero_2)  
 end.
