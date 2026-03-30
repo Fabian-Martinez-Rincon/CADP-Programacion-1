@@ -18,7 +18,7 @@ begin
     min1 := 9999;  { valor alto }
     min2 := 9999;
 
-    for i := 1 to 1000 do
+    for i := 1 to 3 do
     begin
         readln(num);
         minimos(num, min1, min2);

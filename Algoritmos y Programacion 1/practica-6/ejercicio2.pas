@@ -9,7 +9,7 @@ var
     a: integer;
 
 begin
-    a := cuatro;   { ← CORRECCION }
+    a := cuatro;
 
     writeln(a);
 end.

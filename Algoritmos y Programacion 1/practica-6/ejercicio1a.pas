@@ -17,5 +17,5 @@ begin
 
     uno;
 
-    writeln(b, a);
+    writeln(b, ', ', a);
 end.

@@ -8,6 +8,8 @@ begin
         prom := -1
     else
         prom := suma / cant;
+
+    calcularPromedio := prom;
 end;
 
 var

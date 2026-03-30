@@ -47,3 +47,4 @@
 - [Ejercicio 4](/Algoritmos%20y%20Programacion%201/practica-4/ejercicio_4.pas)
 - [Ejercicio 5](/Algoritmos%20y%20Programacion%201/practica-4/ejercicio_5.pas)
 
+### Practica 5 Maximos y minimos
