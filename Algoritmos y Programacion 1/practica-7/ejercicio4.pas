@@ -9,12 +9,22 @@ type
 
 procedure leerFecha(var f: fecha);
 begin
-    writeln('Ingrese el dia:');
-    readln(f.dia);
-    writeln('Ingrese el mes:');
-    readln(f.mes);
-    writeln('Ingrese el anio:');
+    writeln('Ingrese el anio (2025 para casamientos, 2026 para finalizar): ');
     readln(f.anio);
+
+    while (f.anio < 2025) do
+    begin
+        writeln('Error. Ingrese un anio valido (>= 2025): ');
+        readln(f.anio);
+    end;
+
+    if (f.anio <> 2026) then
+    begin
+        writeln('Ingrese el mes: ');
+        readln(f.mes);
+        writeln('Ingrese el dia: ');
+        readln(f.dia);
+    end;
 end;
 
 function esVerano(f: fecha): boolean;

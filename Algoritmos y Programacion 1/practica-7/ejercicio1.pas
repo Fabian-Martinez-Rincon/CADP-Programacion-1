@@ -9,11 +9,11 @@ type
 {---------------------------}
 { Módulo para leer persona }
 {---------------------------}
-procedure leerPersona(var p: persona);
+function leerPersona: persona;
 begin
-    readln(p.nombre);
-    if (p.nombre <> 'ZZZ') then
-        readln(p.edad);
+    readln(leerPersona.nombre);
+    if (leerPersona.nombre <> 'ZZZ') then
+        readln(leerPersona.edad);
 end;
 
 var
@@ -25,7 +25,7 @@ var
 begin
     primero := true;
 
-    leerPersona(p);
+    p := leerPersona;
 
     while (p.nombre <> 'ZZZ') do
     begin
@@ -54,7 +54,7 @@ begin
             end;
         end;
 
-        leerPersona(p);
+        p := leerPersona;
     end;
 
     writeln('Persona de mayor edad: ', nombreMax);

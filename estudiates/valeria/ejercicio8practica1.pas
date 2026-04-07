@@ -8,16 +8,14 @@ begin
   writeln('Ingrese + o -:');
   readln(operacion);
 
-  if (operacion <> '+') and (operacion <> '-') then
-      writeln('Error: caracter invalido')
-  else 
+  if (operacion = '+') or (operacion = '-') then
   begin
     writeln('Ingrese un numero (0 para terminar):');
     readln(num);
 
     if num <> 0 then
     begin
-      resultado := num;
+      //resultado := num;
 
       readln(num);
       while num <> 0 do
@@ -34,6 +32,5 @@ begin
     end
     else
       writeln('No se ingresaron numeros');
-  end;
-
+  end
 end.
