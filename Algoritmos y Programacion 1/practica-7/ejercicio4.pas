@@ -32,6 +32,14 @@ begin
     esVerano := (f.mes = 12) or (f.mes = 1) or (f.mes = 2);
 end;
 
+procedure esVerano2(f: fecha; var esV: boolean);
+begin
+    if (f.mes = 12) or (f.mes = 1) or (f.mes = 2) then
+        esV := true
+    else
+        esV := false;
+end;
+
 function esPrimeros15DeAbril(f: fecha): boolean;
 begin
     esPrimeros15DeAbril := (f.mes = 4) and (f.dia <= 15);
@@ -40,7 +48,7 @@ end;
 var
     f: fecha;
     cantVerano, cantAbril15: integer;
-
+    esV: boolean;
 begin
     cantVerano := 0;
     cantAbril15 := 0;
@@ -48,7 +56,8 @@ begin
     leerFecha(f);
     while (f.anio <> 2026) do
     begin
-        if (esVerano(f)) then
+        esVerano2(f, esV);
+        if (esV) then
             cantVerano := cantVerano + 1;
 
         if (esPrimeros15DeAbril(f)) then
