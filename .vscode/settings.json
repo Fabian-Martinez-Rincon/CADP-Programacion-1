@@ -1,4 +1,13 @@
 {
   "code-runner.runInTerminal": true,
+  "code-runner.fileDirectoryAsCwd": true,
+  "code-runner.executorMap": {
+    "pascal": "Clear-Host; chcp 65001 > $null; fpc \"$fileName\" > $null 2>&1; if ($LASTEXITCODE -eq 0) { & \".\\$fileNameWithoutExt.exe\" }"
+  },
+  "editor.snippetSuggestions": "top",
+  "files.exclude": {
+    "**/*.exe": true,
+    "**/*.o": true,
+    "**/tempCodeRunnerFile.pas": true
+  }
 }
-

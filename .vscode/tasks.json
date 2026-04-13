@@ -1,0 +1,27 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "Run Pascal Clean",
+      "type": "shell",
+      "command": "Clear-Host; chcp 65001 > $null; fpc \"${fileBasename}\" > $null; if ($LASTEXITCODE -eq 0) { & \".\\${fileBasenameNoExtension}.exe\" }",
+      "options": {
+        "cwd": "${fileDirname}",
+        "shell": {
+          "executable": "powershell",
+          "args": [
+            "-NoProfile",
+            "-ExecutionPolicy",
+            "Bypass",
+            "-Command"
+          ]
+        }
+      },
+      "group": {
+        "kind": "build",
+        "isDefault": true
+      },
+      "problemMatcher": []
+    }
+  ]
+}
