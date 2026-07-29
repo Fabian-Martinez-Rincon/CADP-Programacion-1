@@ -1,2 +1,20 @@
+# Compilados (Free Pascal)
 *.o
 *.exe
+*.ppu
+*.out
+*.bin
+
+# Entornos / IDE
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+.idea/
+tempCodeRunnerFile.*
+
+# Accesos directos y sistema
+*.lnk
+.DS_Store
+Thumbs.db
+desktop.ini
