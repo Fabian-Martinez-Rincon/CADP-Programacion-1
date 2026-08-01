@@ -1,380 +1,70 @@
+[![contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)](https://github.com/FabianMartinez1234567/CADP)
+[![GitHub stars](https://img.shields.io/github/stars/FabianMartinez1234567/CADP)](https://github.com/FabianMartinez1234567/CADP/stargazers/)
+[![GitHub repo size in bytes](https://img.shields.io/github/repo-size/FabianMartinez1234567/CADP)](https://github.com/FabianMartinez1234567/CADP)
 
 ![template](https://github.com/user-attachments/assets/5bf07837-5bba-4bcf-b95f-6d29e5c10ad7)
 
+# CADP — Conceptos de Algoritmos, Datos y Programas
 
----
+> [!IMPORTANT]
+> Si encuentran algún link roto o tienen alguna duda, no duden en decirme por mail fabianmartinezrincon.123@gmail.com
 
-> [!IMPORTANT]  
-> Si encuentran algun link roto o tienen alguna duda, no duden en decirme por mail fabianmartinezrincon.123@gmail.com
+Repositorio de la cátedra **CADP / Algoritmos y Programación 1**: teoría, ejercicios resueltos, parciales y finales de años anteriores, en **Pascal**. Sirve tanto para estudiar la materia como para dar clases particulares (contenido de FaboSistemas).
 
+## Público
 
-***Aca esta la carpeta de cadp, con todos los ejercicios de todas las practicas***
+- Estudiantes de la materia (cursada actual o "Algoritmos y Programación 1" del plan nuevo) que buscan práctica resuelta y explicada.
+- Estudiantes que están preparando un parcial o un final y quieren ver exámenes anteriores.
+- Cualquiera que use este repositorio como contexto para una IA (asistente de estudio, generador de guías, etc.) — ver [`conocimiento/README.md`](conocimiento/README.md) para cómo está pensado ese uso.
 
-- [Resumen Final](/Archivos/resumenFinal.md)
-- [Preguntas de verdadero o falso](/Archivos/README-VoF.md)
-- [Preguntas Teoricas](/Practicas/Teoricas.md)
-- [Ejemplos de memorias y tiempo](/Archivos/Ejemplos-Memorias_Tiempos.md)
-- [Eliminar Ocurrencias vector ordenado](/Parciales/Sergio/Parcial_Sergio.md)
-- [Vectores](/Practicas/Vectores.md)
-- [Listas](/Practicas/Listas.md)
+## Estructura
 
-
-### 1) Teniendo en cuenta la tabla, calcular la memoria estatica, dinamica y el tiempo de ejecución.
-
-<table>
- <tr>
-  <td> Problema </td> <td> Tabla </td>
-  </tr>
- <tr>
- <td>
-<div>
- 
-```Pascal
-program Problema;
-type
-  cadena35 = string[35];
-  empleado = record
-    dirCorreo: cadena35;
-    edad: integer;
-    sueldo:real;
-  end;
-  
-  punt = ^empleado;
-  vector = array [1..500] of punt;
-  
-  lista = ^nodo;
-  nodo = record
-    dato: empleado;
-    sig: lista;
-  end;
-  
-var
-  v:vector;
-  l,aux:lista;
-  emp:empleado;
-  i:integer;
-begin
-  l:=nil;
-  for i:=1 to 10 to 
-  begin
-    read(emp.dirCorreo, emp.edad, emp.sueldo);
-    if (emp.edad < 40) and (emp.sueldo < 40000) then
-      exp.sueldo:= exp.sueldo + 7000;
-    new(aux); 
-    aux^.dato := emp;
-    aux^.sig: := l;
-    l := aux;    
-  end;
-end.
-  
-```  
- </div>
-</td>
-<td>
- 
-| Tipo de Dato | Memoria |
-| ------------- | ------------- |
-| Char  | 1 byte  |
-| Integer  | 6 byte  |
-| Real  | 8 byte  |
-| Boolean  | 1 byte  |
-| String  | Longitud + 1 byte  |
-| Puntero  | 4 byte  |
- 
- 
-</td>
-
-</tr>
-</table>
-
-## Resolución
-La tabla del inicio puede variar dependiendo la pc o los profesores que te toquen ya que en este caso es teorico.
-
-
-### 💾🧍‍♂️ Memoria Estatica.
-Es la suma de las variables declaradas en el `Var` del programa principal.
-En este ejemplo seria: 
-```Pascal
-var
-  v:vector;
-  l,aux:lista;
-  emp:empleado;
-  i:integer;
+```text
+/
+├── conocimiento/     Contenido educativo en Markdown (teoría, ejercicios, resúmenes)
+├── fuentes/           PDF, PPT y DOCX originales (guías, diapositivas de clase)
+├── codigo/            Código Pascal: ejemplos, soluciones y auxiliares
+├── recursos/          Imágenes y capturas (apuntes, autoevaluaciones, diagramas)
+├── Parciales/         Archivo de parciales de años anteriores (enunciado + solución)
+├── Finales/            Archivo de finales de años anteriores (enunciado + solución)
+├── Estudiantes/        Entregas de estudiantes (una carpeta por alumno/a)
+└── docs/               (en el workspace que contiene este repo) instrucciones de organización
 ```
-Hacemos los calculos:
-``` 
-v:vector; 500 * 4b (Al ser un puntero, siempre vale lo que nos marca en la tabla, aunque apunte a otras variables)
-2000 bytes
-l,aux:lista; 4b + 4b = 8 bytes
-emp:empleado; 
-i:integer;
+
+Ver el detalle de qué va en cada carpeta en [`conocimiento/README.md`](conocimiento/README.md).
+
+## Navegación
+
+- **[`conocimiento/INDICE_GENERAL.md`](conocimiento/INDICE_GENERAL.md)** — índice completo por unidad, tema y tipo de contenido.
+- **[Algoritmos y Programación 1](conocimiento/algoritmos-y-programacion-1/README.md)** — cursada actual (2025/2026), práctica 1 a 7.
+- **[Practicas (archivo histórico)](conocimiento/practicas/README.md)** — cursada más extensa de años anteriores, práctica 0 a 7 + repaso.
+- **[Sábados](conocimiento/sabados/README.md)** — clases de repaso adicionales.
+- **[Autoevaluaciones](conocimiento/autoevaluaciones/README.md)** — cuestionarios de autoevaluación por tema.
+- **[Parciales](Parciales/README.md)** y **[Finales](Finales/README.md)** — archivo de exámenes anteriores.
+
+### Accesos directos (resúmenes más consultados)
+
+- [Resumen Final](conocimiento/resumenes/resumen-final.md)
+- [Preguntas de verdadero o falso](conocimiento/resumenes/preguntas-verdadero-o-falso.md)
+- [Preguntas teóricas](conocimiento/practicas/preguntas-teoricas.md)
+- [Ejemplos de memoria y tiempo de ejecución](conocimiento/resumenes/ejemplos-memoria-y-tiempo.md)
+- [Memoria estática/dinámica y tiempo de ejecución — dos ejercicios resueltos](conocimiento/resumenes/memoria-estatica-dinamica-tiempo-ejecucion.md)
+- [Vectores](conocimiento/practicas/practica-04-arreglos/teoria.md)
+- [Listas](conocimiento/practicas/practica-06-listas/teoria.md)
+- [Vectores vs. Listas](conocimiento/practicas/practica-06-listas/vectores-vs-listas.md)
+- [Parcial resuelto (Sergio) — eliminar ocurrencias en vector ordenado](Parciales/Sergio/Parcial_Sergio.md)
+
+## Tecnologías
+
+Todo el código está escrito en **Pascal** (Free Pascal / Turbo Pascal). Para compilar y ejecutar un `.pas`:
+
+```sh
+fpc archivo.pas   # genera el ejecutable
+./archivo         # o archivo.exe en Windows
 ```
-Recordemos que:
-```Pascal
-empleado = record
-  dirCorreo: cadena35;    (35 + 1b)
-  edad: integer;   6b
-  sueldo:real;    8b
-end:
- ```
- Nos quedaria: 
- 
- ```
- v:vector; 2000b
- l,aux:lista; 8 bytes
- emp:empleado;  (35 + 1b) + 6b + 8b = 50 bytes 
- i:integer; 6b
- ```
-  
- ```Dimension Fisica``` = ```v + l,aux + emp + i```
- 
- ```Dimension Fisica``` = ```2000b + 8b + 50b + 6b```
 
-```Dimension Fisica``` = ```2064 bytes``` 
+Los binarios compilados (`*.o`, `*.exe`, `*.ppu`, `*.out`, `*.bin`) no se versionan (ver `.gitignore`).
 
-### 💾🏃 Memoria Dinamica.
-La memoria dinamica se empieza a calcular a partir del primer ```new();```, en caso de no encontrarse en el programa no tendriamos que hacer ninguna operación. Y asi como se suma memoria dinamica con el ```new();``` se restaria (Libera) con el ```Dispose();```
+## Estado de esta reorganización
 
-```Pascal
-for i:=1 to 10 to 
-  begin
-    read(emp.dirCorreo, emp.edad, emp.sueldo);
-    if (emp.edad < 40) and (emp.sueldo < 40000) then
-      exp.sueldo:= exp.sueldo + 7000;
-    new(aux); <-------------------------- Aux fue decladaro como lista y lista es un puntero a nodo
-    aux^.dato := emp;
-    aux^.sig: := l;
-    l := aux;    
-  end;
-```
-Recordemonos que:
-
-```Pascal
-lista = ^nodo;
-  nodo = record
-    dato: empleado; 50 bytes (Ya lo calculamos arriba)
-    sig: lista; 4 bytes (Puntero)
-  end;  50b + 4b = 54 bytes
-```
-Concluimos que el ```new(aux); es 54 bytes``` y al estar dentro de un for que va hasta 10, lo que tenemos que hacer es: 
-
-```Memoria Dinamica``` = ```54b * 10``` 
-
-```Memoria Dinamica``` = ```540 bytes``` 
-
-### ⌚💀🔪 Tiempo de Ejecución.
-| Codigo | Tiempo (ut) |
-| ------------- | ------------- |
-| readln();   | 0ut  |
-| writeln();  | 0ut  |
-| else  | 0ut + contenido  |
-| x := 0;  | 1ut  |
-| x := y;  | 1ut  |
-| new();  | 0ut  |
-| Dispose();  | 0ut  |
-| l:=nil;  | 1ut  |
-| x := y (+,-,*,/,mod,div) x;  | 2ut  |
-| if () then  | (1ut por op.elem) + contenido (<,>,<>,=,or,and,not,/,*,+,-) |
-| for i:=1 to n  | ((3*n+2)ut) + (n * contenido)  |
-| while() do  | (n + 1ut por op.elem) + (n * contenido)  |repeat until
-| repeat until() | Ni idea  |
-| case ():  | Ni idea :D (HELP!)  |
-
-Ya sabiendo lo anterior, solo nos quedaria hacer las operaciones
-```Pascal
-begin
-  l:=nil;  1ut
-  for i:=1 to 10 to   (3*10+2) 
-  begin
-    read(emp.dirCorreo, emp.edad, emp.sueldo);   0ut
-    if (emp.edad < 40) and (emp.sueldo < 40000) then   (1ut + 1ut + 1ut) 
-      exp.sueldo:= exp.sueldo + 7000;   2ut
-    new(aux); 1ut
-    aux^.dato := emp; 1ut
-    aux^.sig: := l; 1ut
-    l := aux;    1ut
-  end;
-end.
-```
-Nos quedaria: 
-
-```Tiempo de ej``` = ```1ut + ((3*10+2) + (((1ut + 1ut + 1ut) + 2ut) + 1ut + 1ut + 1ut + 1ut) * 10)``` 
-
-```Tiempo de ej``` = ```1ut + ((3*10+2) + (((3ut) + 2ut) + 4ut)*10)``` 
-
-```Tiempo de ej``` = ```1ut + ((32ut) + (9ut)*10)``` 
-
-```Tiempo de ej``` = ```1ut + ((32ut) + 90ut)``` 
-
-```Tiempo de ej``` = ```1ut + (122ut)``` 
-
-```Tiempo de ej``` = ```123ut``` 
-
-
-
-### 2) Cual de las dos opciones consume menos memoria total (Memoria estatica +  Memoria dinamica).
-
-<table>
- <tr>
-  <td> A </td> <td> B </td><td> Tabla </td>
-  </tr>
- <tr>
- <td>
-  
-
-```Pas 
-program opcion_A;
-type
-    lista = ^nodo;
-    nodo = record
-        dato:integer;
-        sig:lista;
-    end;
-var
-    l,nue:lista;
-    i:integer;
-begin
-    l:=Nil;
-    for i:=l to 6 do begin
-        new(nue);
-        nue^.dato:=i;
-        nue^.sig:=l;
-        l:=nue;
-    end;
-end. 
-  ```  
-  </td>
-  
-<td>
-   
-```Pas
-program opcion_B;
-type
-    vector = array [1..10] of integer;
-var
-    v:vector;
-    i,dimL:integer;
-begin
-    dimL:=0;
-    for i:=1 to 6 do begin
-        dimL:=dimL + 1;
-        v[i]:=i;
-    end;
-end.
-```  
-</td>
-<td>
- 
-| Dato | Memoria |
-| ------------- | ------------- |
-| Char  | 1 byte  |
-| Integer  | 6 byte  |
-| Real  | 8 byte  |
-| Boolean  | 1 byte  |
-| String  | Long + 1 byte  |
-| Puntero  | 4 byte  |
- 
- 
-</td>
-
-</tr>
-</table>
-
-A)
-
-<table>
-<tr>
-<td> Memorias </td> <td> Resultado </td>
-</tr>
-<tr>
-<td> Memoria Estatica:
-
-```Pas
-var
-    l,nue:lista; 4b + 4b = 8bytes
-    i:integer; 6bytes
-``` 
-
-</td>
-<td>
-
-Memoria Estatica = ```14 bytes```
-
-</td>
- </tr>
- <tr>
- <td>
-  Memoria Dinamica:
-
-```Pas
-begin
-    l:=Nil; 
-    for i:=l to 6 do begin
-        new(nue); 4bytes + (6bytes) = 10 bytes
-        nue^.dato:=i; 
-        nue^.sig:=l; 
-        l:=nue; 
-    end;
-    6 * 10b
-end. 
-```  
-  </td>
- 
- <td>
-  
-Memoria Dinamica = ```(6*10)```
-
-Memoria Dinamica = ```60 bytes```
-
-Memoria Total = ```60b + 14b``` = ```74 bytes```
-  
- </td>
-</tr>
-</table>
-
-B)
-
-<table>
-<tr>
-<td> Memorias </td> <td> Resultado </td>
-</tr>
-<tr>
-<td>
-Memoria Estatica:
-
-```Pas
-var
-    v:vector; 10*6 = 60 b
-    i,dimL:integer; 6 + 6  = 12 b
-```
-</td>
-<td>
- 
-Memoria Estatica = ```72 bytes```
- 
-</td>
-</tr>
-<tr>
-<td>
-Memoria Dinamica:
-
-```Pas
-begin
-    dimL:=0;
-    for i:=1 to 6 do begin
-        dimL:=dimL + 1;
-        v[i]:=i;
-    end;
-end.
-```
-</td>
-<td>
-Memoria Dinamica = No tiene :D
-</td>
- </tr>
-</table>
-
-
-
-Justificación:
-- El ***A*** es el que ocupa menos memoria ya que en el B con tan solo la memoria estatica, este supera al A en memoria total
+Este repositorio fue reorganizado en una base de conocimiento trazable siguiendo el proceso descripto en `docs/` (a nivel del workspace que contiene este repo). Los archivos originales se conservaron; el código y los PDF/PPT/DOCX fuente se movieron a `codigo/`, `fuentes/` y `recursos/` sin modificarse, y el contenido en `conocimiento/` referencia su procedencia mediante metadatos y enlaces relativos.

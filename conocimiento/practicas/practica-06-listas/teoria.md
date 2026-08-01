@@ -1,3 +1,40 @@
+---
+id: "CADP-P06-TEORIA"
+titulo: "Listas"
+slug: "listas"
+tipo: "teoria"
+unidad: 6
+tema: "listas-enlazadas"
+subtemas:
+  - "recorrer-lista"
+  - "buscar-en-lista"
+  - "agregar-al-principio"
+  - "agregar-al-final"
+  - "eliminar-elemento"
+  - "insertar-ordenado"
+  - "corte-de-control"
+nivel: "intermedio"
+lenguajes:
+  - "Pascal"
+estado: "completo"
+origen: "original"
+fuentes:
+  - archivo: "../../../fuentes/practicas/practica-06-listas/Redictado CADP 2020 - Práctica 6 - Listas.docx.pdf"
+    paginas: "1-5"
+prerrequisitos:
+  - "../practica-05-punteros/teoria.md"
+relacionados:
+  - "./ejercicios.md"
+  - "./vectores-vs-listas.md"
+  - "../practica-04-arreglos/teoria.md"
+  - "../practica-05-punteros/teoria.md"
+codigo_relacionado:
+  - "../../../codigo/soluciones/practicas/practica-06-listas/1.pas"
+---
+
+> [!NOTE]
+> Este documento es el resumen de teoría escrito originalmente por quien cursó la materia (`origen: "original"`). Se le agregó únicamente este encabezado de metadatos; el cuerpo no fue modificado.
+
 <h1 align="center">🧾Listas </h1>
 <div align="center">
 <img src="https://media.giphy.com/media/bt0dOM6pZjSY8/giphy.gif"/>

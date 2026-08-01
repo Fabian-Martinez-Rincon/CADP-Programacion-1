@@ -1,3 +1,18 @@
+---
+id: "CADP-FINAL-2025-DICIEMBRE"
+titulo: "Final CADP - Tema 1, 02/12/2025 (con apunte de Final de febrero)"
+slug: "final-cadp-2025-diciembre-tema-1"
+tipo: "final"
+tema: "eficiencia-y-estructuras-de-datos"
+nivel: "intermedio"
+lenguajes:
+  - "Pascal"
+estado: "completo"
+origen: "original"
+fuentes:
+  - archivo: "final-tema-1-pagina-1.jpeg"
+  - archivo: "final-tema-1-pagina-2.jpeg"
+---
 
 ## Herramientas
 

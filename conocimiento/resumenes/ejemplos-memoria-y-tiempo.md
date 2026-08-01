@@ -1,3 +1,20 @@
+---
+id: "CADP-EJEMPLOS-MEMORIA-TIEMPO"
+titulo: "Ejemplos de cálculo de memoria y tiempo de ejecución"
+slug: "ejemplos-memoria-y-tiempo"
+tipo: "ejemplo"
+tema: "memoria-estatica-dinamica"
+subtemas:
+  - "tiempo-de-ejecucion"
+nivel: "intermedio"
+lenguajes:
+  - "Pascal"
+estado: "completo"
+origen: "original"
+relacionados:
+  - "memoria-estatica-dinamica-tiempo-ejecucion.md"
+---
+
 [![contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)](https://github.com/FabianMartinez1234567/CADP)
 [![GitHub stars](https://img.shields.io/github/stars/FabianMartinez1234567/CADP)](https://github.com/FabianMartinez1234567/CADP/stargazers/)
 [![GitHub repo size in bytes](https://img.shields.io/github/repo-size/FabianMartinez1234567/CADP)](https://github.com/FabianMartinez1234567/CADP)

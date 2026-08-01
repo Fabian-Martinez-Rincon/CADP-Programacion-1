@@ -1,3 +1,16 @@
+---
+id: "CADP-PARCIAL-SERGIO"
+titulo: "Práctica de Sergio: eliminar ocurrencias de un valor en un vector"
+slug: "parcial-sergio-eliminar-ocurrencias-vector"
+tipo: "ejercicio"
+tema: "vectores"
+nivel: "inicial"
+lenguajes:
+  - "Pascal"
+estado: "no-verificado"
+origen: "original"
+---
+
 ```Pas
 program cosa;
 type

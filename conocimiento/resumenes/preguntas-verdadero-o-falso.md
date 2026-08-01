@@ -1,3 +1,16 @@
+---
+id: "CADP-PREGUNTAS-VOF"
+titulo: "Preguntas de verdadero o falso"
+slug: "preguntas-verdadero-o-falso"
+tipo: "resumen"
+tema: "repaso-general"
+nivel: "intermedio"
+lenguajes:
+  - "Pascal"
+estado: "completo"
+origen: "original"
+---
+
 [![contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)](https://github.com/FabianMartinez1234567/CADP)
 [![GitHub stars](https://img.shields.io/github/stars/FabianMartinez1234567/CADP)](https://github.com/FabianMartinez1234567/CADP/stargazers/)
 [![GitHub repo size in bytes](https://img.shields.io/github/repo-size/FabianMartinez1234567/CADP)](https://github.com/FabianMartinez1234567/CADP)

@@ -1,3 +1,15 @@
+---
+id: "CADP-PREGUNTAS-TEORICAS"
+titulo: "Preguntas teóricas (finales) — Practicas"
+slug: "preguntas-teoricas"
+tipo: "resumen"
+tema: "repaso-general"
+nivel: "avanzado"
+lenguajes:
+  - "Pascal"
+estado: "completo"
+origen: "original"
+---
 
 <h1 align="center"> 💻Preguntas Teoricas </h1>
 <div align="center">

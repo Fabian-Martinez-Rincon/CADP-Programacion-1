@@ -1,3 +1,50 @@
+---
+id: "CADP-P04-TEORIA"
+titulo: "Vectores"
+slug: "vectores"
+tipo: "teoria"
+unidad: 4
+tema: "arreglos"
+subtemas:
+  - "vectores"
+  - "recorridos"
+  - "carga-de-datos"
+  - "agregar"
+  - "insertar-en-posicion"
+  - "insertar-manteniendo-orden"
+  - "borrar-en-posicion"
+  - "borrar-elemento"
+  - "busqueda-lineal"
+  - "busqueda-secuencial-optimizada"
+  - "busqueda-dicotomica"
+  - "corte-de-control"
+nivel: "inicial"
+lenguajes:
+  - "Pascal"
+estado: "completo"
+origen: "mixto"
+fuentes:
+  - archivo: "../../../fuentes/practicas/practica-04-arreglos/Redictado CADP 2020 - Práctica 4 - Vectores.pdf"
+    paginas: "1-4"
+  - archivo: "../../../fuentes/practicas/practica-04-arreglos/Resumen Arreglos.docx"
+  - archivo: "../../../fuentes/practicas/practica-04-arreglos/e.docx"
+prerrequisitos:
+  - "tipos de datos simples (integer, real, string)"
+  - "estructuras repetitivas (for, while)"
+  - "modularización con procedimientos y funciones"
+  - "parámetros por valor y por referencia"
+relacionados:
+  - "./ejercicios.md"
+  - "./ejemplos.md"
+  - "../practica-06-listas/teoria.md"
+  - "../practica-06-listas/vectores-vs-listas.md"
+codigo_relacionado:
+  - "../../../codigo/ejemplos/practicas/practica-04-arreglos/teoria-arreglos-programa.pas"
+---
+
+> [!NOTE]
+> Este documento es el resumen de teoría escrito originalmente por quien cursó la materia (contenido `origen: "original"` en su cuerpo principal). Se le agregaron únicamente este encabezado de metadatos y, al final, un anexo con procedimientos transcritos desde capturas de pantalla (`origen: "convertido"`) que formaban parte de los mismos apuntes. El resto del archivo no fue modificado.
+
 <h1 align="center"> 📚Vectores </h1>
 <div align="center">
 <img src="https://media.giphy.com/media/7E8lI6TkLrvvAcPXso/giphy.gif"/>
@@ -457,5 +504,145 @@ begin
     end;
 end;
 ```
+
+Anexo: procedimientos transcritos desde apuntes (imágenes)
+============================================================
+
+> [!NOTE]
+> `Resumen Arreglos.docx` y `e.docx` (ambos en `fuentes/practicas/practica-04-arreglos/`) no contienen texto extraíble: son documentos armados enteramente con capturas de pantalla pegadas. Las imágenes se extrajeron a `recursos/imagenes/practicas/practica-04-arreglos/` y se transcriben a continuación en bloques de código Pascal, tal como indica el proceso de organización para imágenes que contienen código. `origen` de esta sección puntual: `"convertido"`.
+
+### Vectores: carga, agregar e insertar/borrar en una posición
+
+Cuatro procedimientos clásicos de manejo de vectores, tal como aparecen en los apuntes (nombres de variables y mayúsculas/minúsculas respetados de la fuente):
+
+**Cargar un vector hasta un centinela** (fuente: `e.docx`, imagen [`e-docx-cargar-vector.png`](../../../recursos/imagenes/practicas/practica-04-arreglos/e-docx-cargar-vector.png)):
+
+```Pas
+Const dimF = 1000;
+Type vector =  Array [1..dimF] of integer;
+Procedure CARGAR ( var v: vector; var dimL: integer );
+var dato: integer;
+begin
+    dimL := 0;
+    read (dato);
+    while (dato <> 99)  and ( dimL < dimF ) do
+    begin
+        dimL := dimL + 1;
+        v [dimL] := dato;
+        read (dato);
+    end;
+End;
+```
+
+**Agregar al final, verificando espacio** (fuente: `Resumen Arreglos.docx`, imagen [`resumen-arreglos-agregar-vector.png`](../../../recursos/imagenes/practicas/practica-04-arreglos/resumen-arreglos-agregar-vector.png)) — variante con parámetro `exito` de la operación "Agregar al final" ya vista más arriba en este documento:
+
+```Pas
+Procedure AGREGAR (var v: vector; var dimL: integer;
+                    elemento: integer; var exito: boolean);
+Begin
+ exito:= false;
+ {verificar espacio suficiente}
+ If (dimL < dimF) then begin
+                exito:= true;
+                dimL:= dimL+1; {actualizar cantidad de elementos}
+                v [dimL]:= elemento;
+              end;
+End;
+```
+
+**Insertar en una posición determinada** (fuente: `Resumen Arreglos.docx`, imagen [`resumen-arreglos-insertar-pos-vector.png`](../../../recursos/imagenes/practicas/practica-04-arreglos/resumen-arreglos-insertar-pos-vector.png)) — misma idea que "Insertar_un_elemento → Posición_Determinada" de más arriba, con el agregado del booleano `exito`:
+
+```Pas
+Procedure INSERTARPOS (var v:vector; var dimL: integer;
+  elemento: integer; pos: integer; var exito: boolean);
+var i : integer;
+Begin
+ exito:= false;
+ if (dimL < dimF) and ((pos>=1) and (pos<= dimL))
+     then begin
+            exito:= true;
+            for  i:= dimL downto pos do
+              v [ i + 1 ] := v [ i ] ;
+            v [pos] := elemento;
+            dimL := dimL + 1;
+          end;
+End;
+```
+
+**Borrar el elemento de una posición determinada** (fuente: `Resumen Arreglos.docx`, imagen [`resumen-arreglos-borrar-pos-vector.png`](../../../recursos/imagenes/practicas/practica-04-arreglos/resumen-arreglos-borrar-pos-vector.png)) — misma idea que "Borrar_Elementos → En_Posición_Determinada" de más arriba, con el agregado del booleano `exito`:
+
+```Pas
+Procedure BorrarPos (var v: vector;
+             var dimL: integer; pos: posicion;
+             var exito: boolean );
+var i: integer;
+begin
+ exito := false;
+ if (pos >=1 and pos <= dimL)
+    then begin
+           exito := true;
+           for i:= pos + 1 to dimL do
+              v [ i - 1 ]  :=  v [ i ] ;
+           dimL := dimL - 1 ;
+         end;
+end;
+```
+
+### Listas: dos procedimientos que aparecían en el mismo resumen
+
+> [!NOTE]
+> Estos dos procedimientos son sobre **listas enlazadas**, no sobre vectores, pero estaban en las mismas capturas de `Resumen Arreglos.docx`. Se transcriben acá por fidelidad a la fuente. La teoría completa de listas está en [`../practica-06-listas/teoria.md`](../practica-06-listas/teoria.md), que incluye variantes equivalentes (`AgregarAlFinal1`, `AgregarAlFinal2`).
+
+**Agregar un nodo al final, recorriendo la lista** (imagen [`resumen-arreglos-armar-nodo-lista.png`](../../../recursos/imagenes/practicas/practica-04-arreglos/resumen-arreglos-armar-nodo-lista.png)) — equivalente a `AgregarAlFinal1` de la Práctica 6:
+
+```Pas
+procedure armarNodo(var L: lista; v: integer);
+var
+    act, nue : lista;
+begin
+  new (nue);
+  nue^.num:= v;
+  nue^.sig := NIL;
+  if L <> Nil then
+  begin
+      act := L ;
+      while  (act^.sig <> NIL ) do
+          act := act^.sig ;
+      act^.sig := nue ;
+  end
+  else
+      L:= nue;
+end;
+```
+
+**EstaOrdenada: verificar si una lista está ordenada de manera ascendente** (imagen [`resumen-arreglos-esta-ordenada-lista.png`](../../../recursos/imagenes/practicas/practica-04-arreglos/resumen-arreglos-esta-ordenada-lista.png)):
+
+```Pas
+function EstaOrdenada (pri:lista):boolean;
+var
+    ORDEN:Boolean;
+    mayor:integer;
+begin
+    ORDEN:=True;
+    mayor:=-1;
+    while (pri <> nil) and (ORDEN=True)do
+    begin
+        if (pri^.num>mayor)then
+        begin
+            mayor:=pri^.num;
+            WriteLN('bien');
+        end
+        else
+        begin
+            ORDEN:=False;
+            WriteLN('NO ESTA ORDENADA');
+        end;
+        pri:=pri^.sig;
+    end;
+    EstaOrdenada:=ORDEN;
+end;
+```
+
+La lógica recorre la lista llevando el máximo visto hasta el momento (`mayor`, inicializado en `-1`): mientras cada nodo siguiente sea mayor al máximo anterior, la lista sigue "bien"; en cuanto aparece un valor que no supera al máximo, `ORDEN` pasa a `False` y se corta el recorrido. Es la misma idea que se pide implementar, sin los `WriteLn` de depuración, en el ejercicio 9.a de la Práctica 6 (`EstáOrdenada`).
 
 
