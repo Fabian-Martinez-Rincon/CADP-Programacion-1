@@ -1,3 +1,8 @@
+{Realizar un programa que lea números que representan códigos de productos correspondientes a juegos para
+consolas. La secuencia finaliza al ingresar el código 0. Para cada código de producto se lee además la
+cantidad total vendida y el precio por unidad. Informar el código de producto que se vendió más veces y el
+código de producto que menos recaudó. Modularizar la solución.}
+
 program Productos;
 
 {-------------------------------------}

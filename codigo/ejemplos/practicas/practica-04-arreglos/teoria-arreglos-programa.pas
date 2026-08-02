@@ -1,4 +1,3 @@
-program ejercicioVec1(Clase3);
 {
  Un centro de deportes quiere almacenar la informaci�n de sus clientes y de los 4 tipos de actividades que ofrece: 
  1) Musculaci�n, 2) Spinning, 3) Cross Fit, 4) Libre. 
@@ -18,6 +17,8 @@ g) Elimine el cliente correspondiente a un c�digo que se lee.
 h)Elimine todos los clientes que realizan la actividad Spinning.
 
 }
+
+program ejercicioVec1(Clase3);
 
 {tipos de datos definidos por el usuario}
 const

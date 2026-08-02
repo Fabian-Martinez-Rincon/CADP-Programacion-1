@@ -1,3 +1,7 @@
+{Ejemplo suelto de Instagram (FaboSistemas): declara e imprime una variable de cada uno de los cinco tipos
+de datos simples vistos en la cátedra (integer, real, boolean, char y string), mostrando además el
+formateo con dos decimales (altura:0:2) para el tipo real.}
+
 program EjemploTipos;
 var
     edad: integer; altura: real;

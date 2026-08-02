@@ -1,3 +1,9 @@
+{Un local de ropa desea analizar las ventas realizadas en el último mes. Para ello se lee: para cada día del
+mes, los montos de las ventas realizadas. La lectura de montos para cada día finaliza cuando se lee el
+monto 0. Se asume un mes de 31 días. Calcular e Informar: a. La cantidad de ventas para cada día. b. El
+monto total acumulado en ventas de todo el mes. c. El día en el que se realizó la mayor cantidad de ventas.
+Modularizar la solución.}
+
 program VentasMes;
 
 {--------------------------------------}

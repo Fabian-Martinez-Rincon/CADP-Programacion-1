@@ -1,3 +1,10 @@
+{Se desea procesar la información de todos los radares de velocidad que posee la ciudad de La Plata en un
+día. Para ello se lee de cada radar: código de radar, velocidad máxima permitida y cantidad de vehículos
+registrados, y para cada vehículo en cada radar, se lee patente y velocidad. La lectura finaliza cuando se
+lee el código de radar -1. Se pide calcular e informar: a. Para cada radar, la velocidad promedio de los
+automóviles. b. Para cada radar, la cantidad de vehículos que fueron multados. c. La patente del vehículo
+con mayor velocidad y la patente del vehículo con menor velocidad.}
+
 program Ejercicio6Radar;
 
 type

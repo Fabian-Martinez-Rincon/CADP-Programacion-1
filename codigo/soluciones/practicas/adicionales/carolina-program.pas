@@ -1,3 +1,11 @@
+// No hay ningún documento fuente que lo acompañe; se describe únicamente por lo que hace el código.
+// Qué hace: carga un vector de 10 enteros (cargarVector) y elimina todas las ocurrencias de un valor dado
+// (elemento:=3, fijo en el código, no leído por teclado) con eliminarOcurrencias, que llama repetidamente
+// a un BorrarPos clásico (desplazar los elementos posteriores una posición hacia atrás y reducir la
+// dimensión lógica) mientras el valor en la posición actual siga coincidiendo. Es una variante de la
+// operación "Borrar_Elementos" de la teoría de arreglos, generalizada para borrar todas las repeticiones
+// de un valor en vez de una sola.
+
 program cosa;
 type
     vector = array [1..10] of integer;

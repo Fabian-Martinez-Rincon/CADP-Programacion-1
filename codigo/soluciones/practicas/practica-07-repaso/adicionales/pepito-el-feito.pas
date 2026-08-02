@@ -1,3 +1,13 @@
+// Tampoco tiene documento fuente asociado; el nombre de archivo ("Pepito El Feito") es el que eligió quien
+// lo escribió, se conserva tal cual. Modela un sistema de pedidos de postres: un vector Vpostre (tamaño
+// fijo dimFPostre=3) donde cada postre tiene un nombre y una lista enlazada de ingredientes (listaPostre,
+// cada nodo con nombre y cantidad, cargada hasta un centinela cantidad=-1); y un vector Vpedidos
+// (dimFPedidos=2) con los pedidos de clientes, cada uno referenciando un postre por código. ImprimirMenu
+// muestra cada pedido con sus ingredientes; Maximo/MasUsadoPorPostre recorren la lista de ingredientes de
+// cada postre pedido para informar cuál es el que más cantidad usa. El propio código deja constancia de que
+// dos partes no salieron como se buscaba: OrdenarPedidos ("Trate de hacerlo en un programa separado pero no
+// me funciono") e ImprimirOrden ("No pude hacer que se imprimar ordenado").
+
 program cosa;
 const
     dimFPostre = 3;

@@ -1,3 +1,8 @@
+// No corresponde a ninguno de los 15 ejercicios ni a los 2 adicionales del PDF de la Práctica 4; no hay
+// enunciado verificable en las fuentes. Ejercicio suelto de inserción ordenada: recorre un vector
+// desordenado de 5 enteros y va insertando cada elemento en su posición correcta dentro de un segundo
+// vector (BuscarPosicion + Insertar), igual que la técnica "Manteniendo un orden" de la teoría de arreglos.
+
 program InsertarOrdenado;
 type
     vector = array [1..5] of integer;

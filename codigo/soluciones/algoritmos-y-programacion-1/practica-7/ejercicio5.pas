@@ -1,3 +1,11 @@
+{La casa central de una cadena de bicicleterías desea procesar la información de las ventas de cada mes del
+año 2025, de cada una de sus 6 sucursales. La información correspondiente a cada mes por cada sucursal es:
+cantidad de bicicletas vendidas, monto total facturado, cantidad de bicicletas defectuosas, y monto total
+devuelto por bicicletas defectuosas. Implementar un programa que lea y procese esa información e imprima:
+a. La sucursal con menor cantidad de bicicletas defectuosas. b. Para cada sucursal, el mes en que más
+bicicletas vendió. c. La ganancia promedio del mes de abril entre todas las sucursales (ganancia = monto
+total facturado − monto total devuelto por bicicletas defectuosas).}
+
 program Bicicleterias;
 
 const

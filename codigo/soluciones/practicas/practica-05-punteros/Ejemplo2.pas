@@ -1,7 +1,11 @@
+// Programa de práctica libre (sin enunciado numerado del PDF de la Práctica 5). Tres punteros a integer
+// (p1,p2,p3); p3 := p1 los deja apuntando a la misma celda y luego se opera con p1^/p2^/p3^: practica el
+// alias de punteros visto en la teoría, esta vez con aritmética en vez de solo lectura.
+
 program probandoPunteros;
 
-Type 
-    pint= ^integer; 
+Type
+    pint= ^integer;
 
 var  x : integer;
        p1, p2, p3: pint;	

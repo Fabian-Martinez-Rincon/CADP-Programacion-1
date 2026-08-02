@@ -1,3 +1,7 @@
+{Variante independiente del ejercicio 1 de la Práctica 3 (suma de 15 números y cantidad de mayores a 10),
+con N = 5 en lugar de 15, que combina en un solo for tanto la suma total como el conteo de números
+mayores a 10.}
+
 program sumar15;
 const
   N = 5;

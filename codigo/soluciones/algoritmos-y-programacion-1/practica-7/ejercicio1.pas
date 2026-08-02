@@ -1,3 +1,8 @@
+{- Declarar un registro que represente una persona con su nombre y edad.
+- Realizar un módulo que lea y retorne los datos de una persona.
+- Realizar un programa que lea personas hasta que se ingrese el nombre "ZZZ", y que calcule e informe el
+nombre de la persona de mayor edad y el nombre de la persona de menor edad.}
+
 program EjercicioPersonas;
 
 type

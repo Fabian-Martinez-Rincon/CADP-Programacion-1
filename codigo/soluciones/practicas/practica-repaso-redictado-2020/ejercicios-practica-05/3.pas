@@ -1,3 +1,7 @@
+// Mismo enunciado que el Ejercicio 3 de la Práctica 5 (Punteros): Indicar los valores que imprime el
+// siguiente programa en Pascal (numeros = array[1..10000] of integer, puntero a ese arreglo, new, carga
+// parcial de 5000 elementos).
+
 program punteros;
 type
     numeros = array[1..10000] of integer;

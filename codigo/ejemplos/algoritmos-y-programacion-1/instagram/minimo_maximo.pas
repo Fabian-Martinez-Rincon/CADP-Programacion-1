@@ -1,3 +1,7 @@
+{Ejemplo suelto de Instagram (FaboSistemas): sobre una matriz 3x3 cargada con random(100), calcula el
+máximo y el mínimo con dos procedimientos separados (calcularMax, calcularMin), cada uno recorriendo la
+matriz completa e informando también la posición [fila,columna] donde se encontró.}
+
 program MaxMinMatriz;
 
 const

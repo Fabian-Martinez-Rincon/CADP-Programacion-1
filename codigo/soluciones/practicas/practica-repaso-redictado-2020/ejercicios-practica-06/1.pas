@@ -1,3 +1,9 @@
+// Mismo enunciado que el Ejercicio 1 de la Práctica 6 (Listas): Dado el siguiente programa: a. Indicar qué
+// hace el programa. b. Indicar cómo queda conformada la lista si se lee la siguiente secuencia de números:
+// 10 21 13 48 0. c. Implementar un módulo que imprima los números enteros guardados en la lista generada.
+// d. Implementar un módulo que reciba la lista y un valor, e incremente con ese valor cada dato de la
+// lista.
+
 program JugamosConListas;
 type
     lista = ^nodo;

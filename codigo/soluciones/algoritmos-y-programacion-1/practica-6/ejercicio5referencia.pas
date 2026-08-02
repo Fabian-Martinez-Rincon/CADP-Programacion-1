@@ -1,3 +1,6 @@
+{Escriba un módulo que reciba como parámetro un número entero positivo n y calcule la sumatoria de los
+primeros n números naturales. Para n = 5, la sumatoria es 1+2+3+4+5 = 15.}
+
 program Sumatoria;
 
 procedure sumaN(n: integer; var resultado: integer);

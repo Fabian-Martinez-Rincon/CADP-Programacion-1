@@ -1,3 +1,7 @@
+{Ejemplo suelto de Instagram (FaboSistemas), no perteneciente a ninguna práctica numerada: lee un número
+del 1 al 6 y usa case opcion of con rangos de valores agrupados por rama (1,2,3: ...; 4,5: ...; 6: ...) y
+una rama else para los valores fuera de rango.}
+
 program CaseDemo;
 var
     opcion: Integer;

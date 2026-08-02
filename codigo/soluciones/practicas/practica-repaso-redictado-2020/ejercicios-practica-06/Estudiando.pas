@@ -1,3 +1,10 @@
+// No es la solución de un ejercicio puntual: es un archivo de práctica personal que reúne, en un solo
+// lugar, variantes de AgregarLista (tres formas distintas de agregar a una lista o un vector), DosMaximos,
+// digitosPares, EstaOrdenada e insertarLista — un repaso de varias técnicas de las Prácticas 4 y 6 juntas.
+// AgregarLista2/AgregarLista3 referencian una variable nue que no declararon (los nombres reales de sus
+// variables locales son dos/uno), y el archivo termina con un begin end. vacío: ninguna de las funciones
+// se llega a probar.
+
 program estudiando;
 const
     dimF = 10;

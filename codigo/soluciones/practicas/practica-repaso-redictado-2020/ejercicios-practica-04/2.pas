@@ -1,3 +1,9 @@
+// Mismo enunciado que el Ejercicio 2 de la Práctica 4 (Vectores): Dado el siguiente programa, complete las
+// líneas indicadas, considerando que: a) El módulo cargarVector debe leer números reales y almacenarlos en
+// el vector que se pasa como parámetro [...] La lectura finaliza cuando se ingresa el valor 0 [...] o
+// cuando el vector está completo. b) El módulo modificarVectorySumar debe devolver el vector con todos sus
+// elementos incrementados con el valor n y también debe devolver la suma de todos los elementos del vector.
+
 program Vectores;
 const
     cant_datos = 150;

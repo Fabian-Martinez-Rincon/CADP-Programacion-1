@@ -1,3 +1,6 @@
+{Ejemplo suelto de Instagram (FaboSistemas), el más simple del catálogo: una función Sumar y un
+procedimiento Saludar, cada uno invocado una sola vez desde el programa principal.}
+
 program Ejemplo;
 
 function Sumar(a, b: Integer): Integer;

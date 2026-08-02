@@ -1,3 +1,8 @@
+{a. Escriba un procedimiento que lea la altura de una cantidad de personas y retorne el promedio de éstas.
+La cantidad de personas se recibe como parámetro.
+b. Escriba un programa que procese la altura de 30 personas utilizando el módulo desarrollado en a) e
+informe el resultado.}
+
 program Ejercicio_3;
 
 procedure calcularPromedio(cant: integer; var promedio: real);

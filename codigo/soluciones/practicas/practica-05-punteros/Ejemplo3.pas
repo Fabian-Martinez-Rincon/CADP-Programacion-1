@@ -1,3 +1,7 @@
+// Programa de práctica libre (sin enunciado numerado del PDF de la Práctica 5). Procedimiento
+// cambiar(var pun1; pun2) que reasigna un puntero recibido por referencia a partir de otro recibido por
+// valor: variante corta de "redirigir el puntero del llamador desde el procedimiento" visto en la teoría.
+
 program punterosC;
 type
   cadena = string[50];

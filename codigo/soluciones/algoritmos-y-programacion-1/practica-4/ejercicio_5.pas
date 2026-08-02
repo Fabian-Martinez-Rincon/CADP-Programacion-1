@@ -1,3 +1,15 @@
+{Realice un programa que procese información de personas. De cada persona se lee el dni, la edad y estado
+civil ('s' soltero/a, 'c' casado/a, 'd' divorciado/a, 'v' viudo/a). Se leen los datos de las personas hasta
+que llega el dni igual a -1. Además, de cada persona se leen los ingresos de los últimos 12 recibos de
+sueldo. Se pide calcular e informar:
+a. El ingreso promedio de las personas.
+b. La cantidad de personas mayores de 30 años o con estado civil casado.
+c. El porcentaje de personas con ingreso promedio menor a 500.000.
+Modularizar la solución.
+Nota: Retornar: el valor tiene que ser devuelto a quien invocó el módulo. No se debe informar en el
+módulo. Recibir como parámetro: el valor se recibe en el módulo como parámetro por valor o por
+referencia. No se debe leer en el módulo, ni declararlo como variable local.}
+
 program Ejercicio_5;
 
 {---------------------------------------------}

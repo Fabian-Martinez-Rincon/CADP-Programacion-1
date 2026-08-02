@@ -1,3 +1,7 @@
+{Variante independiente del ejercicio 5 de la Práctica 3 (porcentaje de números pares e impares): misma idea
+(contar pares e impares con mod 2) pero usando cantidadNumeros := 10 en lugar de 50, nombres de variable
+distintos, y la lógica de la comparación invertida.}
+
 program porcentajeParesImpares;
 var
     numero:Integer;

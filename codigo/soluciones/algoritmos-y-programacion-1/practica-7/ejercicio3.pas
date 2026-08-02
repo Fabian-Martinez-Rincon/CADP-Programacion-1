@@ -1,3 +1,9 @@
+{Realizar un programa que lea desde el teclado el ancho, alto y profundidad de un prisma rectangular
+(cuerpo geométrico de 6 caras rectangulares, como una caja) e informe su volumen y área de la superficie
+formada por sus caras.
+Nota: Volumen del prisma rectangular = profundidad * ancho * altura. Área Total =
+2 * (profundidad * altura + profundidad * ancho + altura * ancho).}
+
 program PrismaRectangular;
 
 {---------------------------}

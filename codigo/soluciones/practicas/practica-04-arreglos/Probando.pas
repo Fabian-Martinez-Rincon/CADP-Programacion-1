@@ -1,3 +1,7 @@
+// No corresponde a ninguno de los 15 ejercicios ni a los 2 adicionales del PDF de la Práctica 4; no hay
+// enunciado verificable en las fuentes. Calculadora de consola con las operaciones div y mod; no tiene
+// relación temática con vectores, parece un programa de prueba de esos dos operadores.
+
 program Calculadora;
 var
     nro1:LongInt;

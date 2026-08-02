@@ -1,3 +1,8 @@
+{Ejercicio resuelto de comparación de memoria "Cuál de las dos opciones consume menos memoria total
+(memoria estática + memoria dinámica)": Opción B (vector). Carga las primeras 6 posiciones de un
+array[1..10] of integer. Memoria estática: 72 bytes (v: 10*6; i, dimL: 6+6). Memoria dinámica: no tiene (no
+usa new). Memoria total calculada: 72 bytes.}
+
 program opcion_B;
 type
     vector = array [1..10] of integer;

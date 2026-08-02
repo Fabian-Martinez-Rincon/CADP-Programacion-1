@@ -1,3 +1,7 @@
+{a. Realizar un módulo que lea 1000 números enteros desde teclado. Retornar los dos números mínimos leídos.
+b. Modifique el ejercicio anterior para que, en vez de leer 1000 números, la lectura finalice al leer el
+número 0.}
+
 program DosMinimos;
 
 procedure minimos(num: integer; var min1, min2: integer);

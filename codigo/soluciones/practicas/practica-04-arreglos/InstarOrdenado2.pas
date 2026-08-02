@@ -1,3 +1,7 @@
+// No corresponde a ninguno de los 15 ejercicios ni a los 2 adicionales del PDF de la Práctica 4; no hay
+// enunciado verificable en las fuentes. Variante del mismo ejercicio de inserción ordenada que
+// InstarOrdenado.pas (DeterminarPosicion + Insertar, dimF=4), con nombres de variables más genéricos.
+
 program probando;
 const   
     dimF = 4;

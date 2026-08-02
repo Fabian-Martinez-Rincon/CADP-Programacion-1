@@ -1,3 +1,9 @@
+{Ejemplo suelto de Instagram (FaboSistemas) sobre matrices bidimensionales (tema no cubierto en las
+prácticas 1-7 de la cátedra): declara type matriz = array[1..f, 1..c] of integer y cuatro procedimientos:
+ImprimirMatriz, ImprimirInvertido (recorre filas/columnas en orden invertido, imprimiendo la traspuesta),
+cargarMatriz (carga manual por teclado) y cargarRandom (carga con random(100), requiriendo randomize
+antes).}
+
 program Matrices_ejemplo1;
 const
   f = 3; //Filas

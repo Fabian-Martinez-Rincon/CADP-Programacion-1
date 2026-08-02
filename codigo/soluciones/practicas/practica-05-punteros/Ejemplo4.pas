@@ -1,3 +1,8 @@
+// Programa de práctica libre (sin enunciado numerado del PDF de la Práctica 5). Un único puntero a
+// record producto (nombre, precio) que se reutiliza en un bucle de lectura hasta el centinela 'ZZZ',
+// contando los productos con precio entre 25 y 50. Es la misma idea de "leer un dato a la vez a través de
+// un puntero" que se vuelve central para las listas enlazadas de la Práctica 6.
+
 program punteros;
 type
   cad10 = string[10];

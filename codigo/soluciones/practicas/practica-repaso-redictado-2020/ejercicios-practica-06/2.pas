@@ -1,3 +1,7 @@
+// Mismo enunciado que el Ejercicio 2 de la Práctica 6 (Listas): Dado el siguiente código, identificar los
+// 9 errores. (No compila a propósito: el enunciado sólo pide identificar los errores, no corregirlos; que
+// el código no compile es el punto de partida esperado.)
+
 program ejercicio2;
 type
     lista = ^nodo;

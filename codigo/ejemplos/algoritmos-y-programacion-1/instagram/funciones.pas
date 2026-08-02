@@ -1,3 +1,7 @@
+{Ejemplo suelto de Instagram (FaboSistemas): catálogo de cuatro funciones simples (suma, esPar, mayor,
+sumaHastaN) invocadas desde el programa principal, cada una con el resultado esperado indicado en un
+comentario junto al WriteLn.}
+
 program funciones;
 
 function suma(a, b: integer): integer;

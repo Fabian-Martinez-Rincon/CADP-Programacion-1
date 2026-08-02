@@ -1,3 +1,6 @@
+{Ejemplo suelto de Instagram (FaboSistemas): matriz de 3x4 con un procedimiento promedioPorFila que recorre
+cada fila con un for interno, acumula la suma de esa fila y calcula su promedio (suma / c).}
+
 program PromedioPorFila;
 
 const

@@ -1,3 +1,15 @@
+{El registro civil de La Plata ha solicitado un programa para analizar la distribución de casamientos
+durante el año 2025.
+a. Analizar y definir un tipo de dato adecuado para almacenar la información de la fecha de cada
+casamiento.
+b. Implementar un módulo que lea una fecha desde teclado y la retorne en un parámetro cuyo tipo es el
+definido en el inciso a).
+c. Implementar un programa que lea la fecha de todos los casamientos realizados en 2025. La lectura
+finaliza al ingresar el año 2026. Debe informar la cantidad de casamientos realizados durante los meses de
+verano (diciembre, enero y febrero) y la cantidad de casamientos realizados en los primeros 15 días del mes
+de abril. Nota: utilizar el módulo realizado en b) para la lectura de fecha. No se leen casamientos
+anteriores a 2025.}
+
 program Casamientos2025;
 
 type

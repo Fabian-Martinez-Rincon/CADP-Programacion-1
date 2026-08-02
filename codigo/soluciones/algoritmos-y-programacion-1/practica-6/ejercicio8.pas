@@ -1,3 +1,9 @@
+{a. Realice un módulo que reciba un carácter y retorne si el mismo es una letra (mayúscula o minúscula).
+b. Realice un módulo que reciba un carácter y retorne si el mismo es una letra consonante.
+c. Utilice los módulos implementados, en un programa que lea una secuencia de caracteres hasta que se
+ingresen 3 letras consonantes. Al finalizar, debe informar cuántas vocales se leyeron en dicha secuencia.
+Por ejemplo, si se lee la secuencia: F % 8 m A # u s, debe informar: 2.}
+
 program Caracteres;
 
 function esLetra(c: char): boolean;

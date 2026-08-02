@@ -1,3 +1,7 @@
+// Mismo enunciado que el Ejercicio 2 de la Práctica 5 (Punteros): Indicar los valores que imprime el
+// siguiente programa en Pascal (record producto con codigo, descripcion: string[9], precio, y un puntero
+// a él).
+
 program punteros;
 type
     cadena = string[9];

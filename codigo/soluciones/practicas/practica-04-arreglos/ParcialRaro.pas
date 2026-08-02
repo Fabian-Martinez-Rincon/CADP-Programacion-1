@@ -1,3 +1,10 @@
+// No corresponde a ninguno de los 15 ejercicios ni a los 2 adicionales del PDF de la Práctica 4; no hay
+// enunciado verificable en las fuentes. Programa que usa una lista enlazada (no un vector) de docentes,
+// insertándolos ordenados por antigüedad dentro de cada categoría (insertarPorAnios) y calculando un
+// puntaje contra una Tabla de categorías. No compila (Error: Identifier not found "CargarTabla"): llama a
+// CargarTabla, que nunca se definió (el comentario "//Se dispone" sugiere que se asumía provista por la
+// cátedra, como en un parcial).
+
 program Raro;
 const
     dimFacu = 17;

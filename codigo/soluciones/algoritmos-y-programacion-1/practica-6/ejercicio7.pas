@@ -1,3 +1,7 @@
+{a. Escriba un módulo que reciba 2 números enteros z y n, y retorne la potencia enésima de z (z^n).
+b. Escriba un programa que lea dos números enteros, B y k, e invoque al módulo implementado en a) para
+informar: el cuadrado (B²), el cubo (B³) y la potencia k-ésima (B^k) de B.}
+
 program Potencias;
 
 function potencia(z, n: integer): integer;

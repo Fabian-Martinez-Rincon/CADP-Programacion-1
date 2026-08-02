@@ -1,5 +1,9 @@
+// Programa de práctica libre (sin enunciado numerado del PDF de la Práctica 5). record Datos (nombre,
+// apellido, edad, altura) con puntero, más un PtrReal y un PtrString sueltos: practica declarar, new y
+// leer/escribir a través de distintos tipos de puntero en un mismo programa.
+
 program probandoPunteros;
-Type 
+Type
     TipoString = string[20];
     Datos = record
     Nombre: TipoString;

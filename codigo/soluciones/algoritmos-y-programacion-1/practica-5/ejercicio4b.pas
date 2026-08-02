@@ -1,3 +1,8 @@
+{a. Informar la máxima tasa de inflación registrada en un mes (leyendo por teclado los valores de los
+últimos 12 meses).
+b. Agregar al inciso a) el código necesario para informar el mes en que se produjo la máxima tasa de
+inflación.}
+
 program InflacionMaximaMes;
 
 procedure maximo(tasaActual: real; mesActual: integer; var maxTasa: real; var mesMax: integer);
